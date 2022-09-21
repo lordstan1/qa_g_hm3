@@ -7,11 +7,11 @@ public class N3 {
 
     @Test
     void N3(){
-        Assertions.assertTrue(3 > 2);
+        Assertions.assertFalse(3 < 2);
     }
 
     @Test
     void N3_2(){
-        Assertions.assertTrue(3 > 1);
+        Assertions.assertFalse(3 < 1);
     }
 }
